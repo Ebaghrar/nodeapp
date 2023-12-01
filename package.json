@@ -1,0 +1,12 @@
+{
+  "name": "votre-application",
+  "version": "1.0.0",
+  "description": "Une application Node.js simple",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    // dépendances
+  }
+}
