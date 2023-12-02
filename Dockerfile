@@ -1,4 +1,4 @@
- FROM ubi8/s2i-core:rhel8.9
+FROM node:20
 
 WORKDIR /usr/src/app
 COPY package*.json ./
