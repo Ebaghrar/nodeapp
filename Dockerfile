@@ -1,4 +1,5 @@
-FROM node:20
+ FROM ubi8/s2i-core:rhel8.9
+
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
